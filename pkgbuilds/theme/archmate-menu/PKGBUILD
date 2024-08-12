@@ -1,0 +1,40 @@
+pkgname=archmate-menu
+_pkgname=brisk-menu
+pkgver=0.6.2
+pkgrel=1
+pkgdesc="Additional Menu for Mate Desktop"
+arch=('x86_64')
+url="https://github.com/getsolus/brisk-menu"
+license=('GPL')
+groups=('mate-extra')
+depends=('mate-panel' 'libnotify')
+makedepends=('gnome-common' 'gettext' 'itstool' 'vala>=0.36' 'meson' 'ninja')
+provides=('brisk-menu')
+conflicts=('brisk-menu')
+install=pkg.install
+source=("archmate-menu.gschema.override"
+"https://github.com/getsolus/brisk-menu/releases/download/v${pkgver}/brisk-menu-v$pkgver.tar.xz")
+sha256sums=('SKIP' '5a87f4dcf7365e81a571128bf0b8199eb06a6fcd7e15ec7739be0ccff1326488')
+
+build() {
+	cd "${srcdir}/${_pkgname}-${pkgver}"
+
+	meson --buildtype plain build \
+		--prefix=/usr \
+		--bindir=/usr/bin \
+		--libexecdir=/usr/lib/${pkgname}
+
+	ninja -C build -j$(($(getconf _NPROCESSORS_ONLN)+1))
+}
+
+
+package() {
+    cd "${srcdir}"
+    install -d $pkgdir/usr/share/glib-2.0/schemas/
+	cp -f archmate-menu.gschema.override $pkgdir/usr/share/glib-2.0/schemas/
+
+	cd "${srcdir}/${_pkgname}-${pkgver}/build"
+
+	DESTDIR="${pkgdir}" ninja install
+}
+

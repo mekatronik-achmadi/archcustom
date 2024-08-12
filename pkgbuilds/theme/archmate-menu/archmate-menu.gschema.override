@@ -1,0 +1,15 @@
+# Disable panel main menu Win-Key
+#Schema: /org/mate/Marco/global-keybindings/
+#Key: panel-main-menu -> 'disabled'
+
+[com.solus-project.brisk-menu]
+#hot-key='Super_L'
+hot-key=''
+dark-theme=false
+label-text='Start'
+label-visible=true
+search-position='bottom'
+pinned-shortcuts=[]
+rollover-activate=false
+favourites=['pluma.desktop', 'caja-browser.desktop', 'mate-terminal.desktop', 'firefox.desktop', 'matecc.desktop']
+

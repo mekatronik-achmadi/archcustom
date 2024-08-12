@@ -1,0 +1,96 @@
+update_mime_cache() {
+    echo 'update mime database'
+
+    update-mime-database /usr/share/mime/
+}
+
+update_dconf() {
+    echo 'compile glib schemas'
+
+    glib-compile-schemas /usr/share/glib-2.0/schemas/
+}
+
+remove_autostart() {
+    echo 'remove some autostart'
+
+    rm -f /etc/xdg/autostart/mate-screensaver.desktop
+    rm -f /etc/xdg/autostart/onboard-autostart.desktop
+}
+
+panel_config() {
+    echo 'modify panel layout'
+
+    rm -f /usr/share/mate-panel/layouts/default.layout
+
+    ln -sf archmate.layout /usr/share/mate-panel/layouts/opensuse.layout
+    ln -sf archdefault.layout /usr/share/mate-panel/layouts/fedora.layout
+}
+
+skel_config() {
+    echo 'modify /etc/skel/ contents'
+
+    cp -f /usr/share/archmate-default/gitconfig /etc/skel/.gitconfig
+
+    mkdir -p /etc/skel/.config
+    cp -f /usr/share/archmate-default/mimeapps.list /etc/skel/.config
+    cp -f /usr/share/archmate-default/redshift.conf /etc/skel/.config
+
+    mkdir -p /etc/skel/.config/qt5ct/
+    cp -f /usr/share/archmate-default/qt5ct.conf /etc/skel/.config/qt5ct/
+
+    mkdir -p /etc/skel/.config/qt6ct/
+    cp -f /usr/share/archmate-default/qt6ct.conf /etc/skel/.config/qt6ct/
+
+    mkdir -p /etc/skel/.config/geany/
+    cp -f /usr/share/archmate-default/geany.conf /etc/skel/.config/geany/
+}
+
+desktop_menu() {
+    echo 'add some desktop menu'
+
+    echo '[Desktop Entry]
+Name=Git GUI
+Comment=GUI for Git
+Exec=git gui
+Icon=git-cola
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=Development;RevisionControl;
+' > /usr/share/applications/git-gui.desktop
+
+    echo "[Desktop Entry]
+Name=guvcview
+GenericName=GTK3 UVC Camera
+Comment=Linux UVC camera program
+Exec=guvcview -i guvcview.raw
+Icon=guvcview
+Terminal=false
+Type=Application
+Categories=Video;AudioVideo;
+StartupNotify=true
+" > /usr/share/applications/guvcview.desktop
+}
+
+updating() {
+    update_mime_cache
+    update_dconf
+    remove_autostart
+    panel_config
+    skel_config
+    desktop_menu
+}
+
+#=====================================================================================
+
+after_install() {
+	updating
+}
+
+post_install() {
+	after_install
+}
+
+post_upgrade() {
+	after_install
+}

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Standard-Blue
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=BlueMenta
+MetacityTheme=BlueMenta
+IconTheme=Mist
+CursorTheme=mate-black

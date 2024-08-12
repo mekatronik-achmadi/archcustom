@@ -1,0 +1,33 @@
+pkgname=archmate-archiso
+pkgver=58
+pkgrel=1
+pkgdesc="Tools for creating Arch Linux live and install ISO images"
+arch=('any')
+url="https://gitlab.archlinux.org/archlinux/archiso"
+license=('GPL')
+provides=('archiso')
+conflicts=('archiso')
+makedepends=('git')
+depends=(
+'arch-install-scripts'
+'cdrtools' 'libisoburn'
+'amd-ucode' 'intel-ucode'
+'grub' 'syslinux' 'edk2-ovmf'
+'squashfs-tools' 'libarchive'
+'mkinitcpio' 'mkinitcpio-archiso'
+'dosfstools' 'e2fsprogs' 'erofs-utils'
+'bash' 'rsync' 'patch' 'sed' 'curl' 'wget')
+options=('!makeflags')
+install=pkg.install
+source=("git+https://gitlab.archlinux.org/archlinux/archiso.git#tag=v$pkgver")
+md5sums=('SKIP')
+
+package() {
+	cd ../
+
+	install -d $pkgdir/usr/share/archmate-archiso/
+	install -m 644 ./pacstrap_modify $pkgdir/usr/share/archmate-archiso/
+
+	cd $srcdir/
+	make DESTDIR="$pkgdir" PREFIX=/usr install -C archiso
+}
