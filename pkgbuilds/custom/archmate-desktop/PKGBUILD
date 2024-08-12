@@ -29,6 +29,7 @@ package() {
 
 	install -d $pkgdir/usr/share/mate-panel/layouts/
 	cp -f ./panel/archmate.layout $pkgdir/usr/share/mate-panel/layouts/
+	cp -f ./panel/archcustom.layout $pkgdir/usr/share/mate-panel/layouts/
 	cp -f ./panel/archdefault.layout $pkgdir/usr/share/mate-panel/layouts/
 
 	install -d $pkgdir/usr/share/archmate-default/

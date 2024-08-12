@@ -187,6 +187,7 @@ vim-devicons-git
 vim-pkgbuild-git
 
 archmate-font
+archmate-menu
 archmate-theme
 archmate-archiso
 archmate-desktop

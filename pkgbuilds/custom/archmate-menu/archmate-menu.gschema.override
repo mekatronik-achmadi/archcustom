@@ -3,8 +3,7 @@
 #Key: panel-main-menu -> 'disabled'
 
 [com.solus-project.brisk-menu]
-#hot-key='Super_L'
-hot-key=''
+hot-key='Super_L'
 dark-theme=false
 label-text='Start'
 label-visible=true

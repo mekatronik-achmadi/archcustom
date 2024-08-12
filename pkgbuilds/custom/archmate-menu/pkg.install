@@ -1,0 +1,12 @@
+update_things() {
+    ln -sf /usr/lib/archmate-menu /usr/lib/brisk-menu
+    glib-compile-schemas /usr/share/glib-2.0/schemas/
+}
+
+post_install() {
+    update_things
+}
+
+post_upgrade() {
+    update_things
+}

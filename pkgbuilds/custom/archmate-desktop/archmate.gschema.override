@@ -14,10 +14,10 @@ num-rows=1
 num-workspaces=2
 
 [org.mate.panel.applet.clock]
-show-date=true
+show-date=false
 
 [org.mate.panel]
-default-layout='fedora'
+default-layout='manjaro'
 
 [org.mate.panel.menubar]
 show-icon=true
@@ -141,7 +141,7 @@ focus-mode='click'
 [org.mate.Marco.global-keybindings]
 run-command-terminal='<Control><Alt>t'
 panel-run-dialog='<Control><Alt>r'
-panel-main-menu='Super_L'
+panel-main-menu=''
 switch-panels='disabled'
 switch-windows='<Alt>Tab'
 switch-windows-all='<Control><Alt>Tab'

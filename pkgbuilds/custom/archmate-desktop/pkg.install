@@ -23,6 +23,7 @@ panel_config() {
     rm -f /usr/share/mate-panel/layouts/default.layout
 
     ln -sf archmate.layout /usr/share/mate-panel/layouts/opensuse.layout
+    ln -sf archcustom.layout /usr/share/mate-panel/layouts/manjaro.layout
     ln -sf archdefault.layout /usr/share/mate-panel/layouts/fedora.layout
 }
 
