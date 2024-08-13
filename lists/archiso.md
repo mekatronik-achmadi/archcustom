@@ -274,11 +274,20 @@ edk2-ovmf
 
 ## Booting
 
+### Bugfix Ventoy no disk mount
+
 ```sh
-# Bugfix Ventoy no disk mount
 ln -svf /dev/dm-0 /dev/disk/by-label/ARCH_LINUX
 exit
 ```
+
+### Start Mate Live Session
+
+```sh
+startx /usr/bin/mate-session
+```
+
+--------------------------------------------------------------------------------
 
 ## After Install
 
