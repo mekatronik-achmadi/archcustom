@@ -10,5 +10,5 @@ label-visible=true
 search-position='bottom'
 pinned-shortcuts=[]
 rollover-activate=false
-favourites=['pluma.desktop', 'caja-browser.desktop', 'mate-terminal.desktop', 'firefox.desktop', 'matecc.desktop']
+favourites=['pluma.desktop', 'caja-browser.desktop', 'mate-terminal.desktop', 'matecc.desktop', 'mate-system-monitor.desktop']
 
