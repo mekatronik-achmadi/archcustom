@@ -811,22 +811,3 @@ Connect FileZilla using:
 
 Remote site: /home/pfs/project/archlinux-custom-iso/
 
---------------------------------------------------------------------------------
-
-## Notes
-
-### updated package list
-
-- [x] [archiso](https://github.com/mekatronik-achmadi/archmate/blob/main/lists/archiso.md)
-- [x] [driver](https://github.com/mekatronik-achmadi/archmate/blob/main/lists/driver.md)
-- [x] [media](https://github.com/mekatronik-achmadi/archmate/blob/main/lists/media.md)
-- [x] [design](https://github.com/mekatronik-achmadi/archmate/blob/main/lists/design.md)
-- [x] [virtual](https://github.com/mekatronik-achmadi/archmate/blob/main/lists/virtual.md)
-- [x] [networking](https://github.com/mekatronik-achmadi/archmate/blob/main/lists/networking.md)
-- [x] [electronic](https://github.com/mekatronik-achmadi/archmate/blob/main/lists/electronic.md)
-- [x] [programming](https://github.com/mekatronik-achmadi/archmate/blob/main/lists/programming.md)
-- [x] [college](https://github.com/mekatronik-achmadi/archmate/blob/main/lists/college.md)
-
-### unused package list
-
-- [x] [unused](https://github.com/mekatronik-achmadi/archmate/blob/main/pkgbuilds/unused/unused.md)
