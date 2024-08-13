@@ -47,6 +47,13 @@ Then login into Mate desktop using **live** user.
 
 ![](screenshots/archmate.png)
 
+**Note:** If using Ventoy as Live USB and failed to mount disk, run:
+
+```sh
+ln -svf /dev/dm-0 /dev/disk/by-label/ARCH_LINUX
+exit
+```
+
 ## Build Yourself
 
 ### Brief

@@ -272,6 +272,14 @@ edk2-ovmf
 
 --------------------------------------------------------------------------------
 
+## Booting
+
+```sh
+# Bugfix Ventoy no disk mount
+ln -svf /dev/dm-0 /dev/disk/by-label/ARCH_LINUX
+exit
+```
+
 ## After Install
 
 ### repository
