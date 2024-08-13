@@ -3,11 +3,6 @@
 ## Official
 
 ### install basic system
-
-linux linux-headers linux-firmware
-base base-devel multilib-devel
-
-### install basic tools
 bash-completion mkinitcpio
 cloc less bear archinstall
 squashfs-tools rsync dkms
@@ -24,6 +19,11 @@ highlight mc fdupes
 fakechroot fakeroot
 mkinitcpio-archiso
 cdrtools syslinux
+base base-devel
+
+### install linux kernel
+
+linux linux-firmware linux-headers
 
 ### install posix meta
 

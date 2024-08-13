@@ -55,9 +55,6 @@ Server = $URLREPO
 
 [extra]
 Server = $URLREPO
-
-[multilib]
-Server = $URLREPO
 " | tee pacman.conf
 
 if [ "$PKGCUSTOM" = "true" ];then

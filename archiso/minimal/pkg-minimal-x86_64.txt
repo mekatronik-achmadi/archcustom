@@ -1,6 +1,3 @@
-linux linux-headers
-linux-firmware base
-
 bash-completion mkinitcpio
 cloc less archinstall
 squashfs-tools rsync dkms
@@ -16,6 +13,9 @@ highlight mc fdupes
 fakechroot fakeroot
 mkinitcpio-archiso
 cdrtools syslinux
+base
+
+linux linux-headers linux-firmware
 
 libisoburn amd-ucode intel-ucode
 grub edk2-ovmf squashfs-tools
