@@ -20,18 +20,11 @@ audacity r python-rpy2
 
 ## AUR
 
-### install scanners
+### install drivers
 
-#### brother mfc-j220
+#### scanners
 
-- https://aur.archlinux.org/packages/brscan3/
-- https://aur.archlinux.org/packages/brother-mfc-j220/
-
-### install printers
-
-#### canon
-
-- https://aur.archlinux.org/packages/cnijfilter-ip2700series/rs
+#### printer
 
 ### install nvidia drivers
 
@@ -87,7 +80,6 @@ audacity r python-rpy2
 
 - https://github.com/mekatronik-achmadi/archmate/tree/main/pkgbuilds/unused/webbrowser/msedge/
 - https://github.com/mekatronik-achmadi/archmate/tree/main/pkgbuilds/unused/webbrowser/firefox/
-- https://github.com/mekatronik-achmadi/archmate/tree/main/pkgbuilds/unused/webbrowser/ungoogled/
 
 ### install campus tools
 
