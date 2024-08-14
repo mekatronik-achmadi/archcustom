@@ -19,6 +19,10 @@ imagemagick xsane-gimp
 
 - https://aur.archlinux.org/packages/pandoc-bin/
 
+### install screencast tools
+
+- https://aur.archlinux.org/packages/simplescreenrecorder/
+
 ### install youtube downloader
 
 - https://aur.archlinux.org/packages/yt-dlp-git/
