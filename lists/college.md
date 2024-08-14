@@ -23,7 +23,7 @@ dblatex latex2html latex2rtf
 
 ### install opencv library
 
-python-opencv hdf5-openmpi vtk
+python-opencv vtk hdf5-openmpi
 
 --------------------------------------------------------------------------------
 
@@ -37,6 +37,7 @@ python-opencv hdf5-openmpi vtk
 
 ### install python additionals
 
+- https://aur.archlinux.org/packages/python-soundfile/
 - https://aur.archlinux.org/packages/python-pyfftw/
 
 ### install shell additional

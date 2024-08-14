@@ -34,8 +34,7 @@ cargo-generate cargo-edit cargo-feature
 
 ### install python additional
 
-python-pygments
-python-sounddevice
+ipython python-pygments
 python-flit python-cffi
 python-sphinx python-yaml
 
