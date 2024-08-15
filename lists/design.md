@@ -47,6 +47,7 @@ FreeCAD recommended plugins:
 - https://github.com/easyw/kicadStepUpMod/
 - https://github.com/looooo/freecad.gears/
 - https://github.com/FreeCAD/FreeCAD-render/
+- https://github.com/APEbbers/BillOfMaterials-WB/
 - https://github.com/jmwright/cadquery-freecad-module/
 - https://github.com/TheRaytracers/freecad-povray-render/
 
