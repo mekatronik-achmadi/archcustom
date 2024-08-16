@@ -20,6 +20,12 @@ kicad-library-3d ngspice
 
 - https://aur.archlinux.org/packages/kicad-library-espressif-git/
 
+### install librecad
+
+- https://aur.archlinux.org/packages/librecad-git/
+- https://aur.archlinux.org/packages/libdxfrw-git/
+- https://aur.archlinux.org/packages/oda-file-converter/
+
 --------------------------------------------------------------------------------
 
 ## External
@@ -27,6 +33,10 @@ kicad-library-3d ngspice
 ### install kicad library
 
 - https://github.com/mekatronik-achmadi/archmate/tree/main/pkgbuilds/optional/kicadlib-user/
+
+### install drawing tools
+
+- https://github.com/mekatronik-achmadi/archmate/tree/main/pkgbuilds/optional/librecad/
 
 --------------------------------------------------------------------------------
 
