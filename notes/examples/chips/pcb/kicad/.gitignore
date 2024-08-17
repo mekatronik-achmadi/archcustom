@@ -1,0 +1,7 @@
+*.lck
+*.ini
+*-backups/
+exports/
+plots
+*cache
+*~

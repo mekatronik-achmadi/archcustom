@@ -101,7 +101,7 @@ https://raw.githubusercontent.com/Bouni/bouni-kicad-repository/main/repository.j
 #### check board size
 
 ```sh
-jq -r '.[].Size' *.gbrjob 2> /dev/null
+jq -M -r '.[].Size' *.gbrjob 2> /dev/null
 ```
 
 #### online gerber viewer
