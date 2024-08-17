@@ -1,0 +1,54 @@
+linux-rpi-headers base-devel
+
+bash-completion mkinitcpio
+cloc less bear rsync dkms
+pv cmus libxcrypt-compat
+neofetch lsb-release dtc
+nano dialog bc tmux tree
+ripgrep bat fzf onefetch
+curl wget openssh sshfs
+pacman-contrib mlocate
+git tig terminus-font
+highlight mc fdupes
+fakechroot fakeroot
+
+posix posix-software-development
+posix-xsi posix-c-development
+
+vim vim-nerdcommenter
+vim-airline vim-tagbar
+vim-surround vim-nerdtree
+vim-tabular vim-gitgutter
+
+tk ttf-liberation onboard
+ttf-liberation-mono-nerd
+dbus xdg-desktop-portal
+xdg-desktop-portal-gtk
+ttf-dejavu ttf-droid
+redshift python-xdg
+archlinux-wallpaper
+xdg-user-dirs-gtk
+
+networkmanager nm-connection-editor
+network-manager-applet modemmanager
+mobile-broadband-provider-info iftop
+bind-tools netctl ppp wpa_supplicant
+net-tools wavemon bmon nethogs gping
+crda iw iwd wireless_tools tigervnc
+bridge-utils ethtool usb_modeswitch
+traceroute dhcp dnsmasq nss-mdns
+openresolv dhclient dhcpcd mtr
+tcpdump iperf3 fping inetutils
+gnu-netcat nmap termshark
+
+uget vimb qbittorrent
+aria2 qbittorrent-nox
+
+fuse2 fuse3 udisks2
+ntfs-3g exfat-utils
+dfc gptfdisk mtools
+gparted dosfstools
+gpart e2fsprogs
+
+gpio-utils wiringpi fake-hwclock
+python-periphery python-wiringx-git

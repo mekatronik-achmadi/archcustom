@@ -1,0 +1,27 @@
+xorg xorg-apps xorg-drivers
+xorg-xinit xorg-fonts
+xf86-video-armsoc-git
+archlinux-xdg-menu
+xinput_calibrator
+xsel xclip xterm
+default-cursors
+xorg-fonts-misc
+x11-ssh-askpass
+xorg-xmessage
+
+gtk3 wxgtk3 gtk2
+adwaita-cursors
+python-wxpython
+python-gobject
+gtkmm gtkmm3
+
+icon-naming-utils gtk-update-icon-cache
+papirus-icon-theme arc-solid-gtk-theme
+gtk-engines gtk-engine-murrine
+gnome-themes-extra libcanberra
+sound-theme-freedesktop
+
+gvfs htop lm_sensors
+geany geany-plugins
+qt5-base qt6-base
+
