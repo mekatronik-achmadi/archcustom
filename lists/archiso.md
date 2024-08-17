@@ -272,7 +272,7 @@ edk2-ovmf
 
 --------------------------------------------------------------------------------
 
-## Booting
+## Live Session
 
 ### Bugfix Ventoy no disk mount
 
@@ -332,6 +332,16 @@ pluma lists/driver.md
 --------------------------------------------------------------------------------
 
 ## Configurations
+
+### Git User
+
+```sh
+git config --global user.name "mekatronik-achmadi"
+git config --global user.email "mekatronik.achmadi@gmail.com"
+
+git config --global init.defaultBranch main
+echo 'export GITHUBTOKEN=$(cat ~/GithubToken.txt)' | tee -a ~/.bashrc
+```
 
 ### Pacman-Key
 
@@ -467,16 +477,6 @@ export HISTCONTROL=ignorespace:ignoredups:erasedups
 export REPOURL='http://mirror.internode.on.net/pub/archlinux'
 PS1='\[\033[01m\][\u@\h \W]\$ \[\033[00m\]'
 " | tee -a ~/.bashrc
-```
-
-#### git user
-
-```sh
-git config --global user.name "mekatronik-achmadi"
-git config --global user.email "mekatronik.achmadi@gmail.com"
-
-git config --global init.defaultBranch main
-echo 'export GITHUBTOKEN=$(cat ~/GithubToken.txt)' | tee -a ~/.bashrc
 ```
 
 #### create new user with/without password
@@ -810,4 +810,3 @@ Connect FileZilla using:
 - port: 22
 
 Remote site: /home/pfs/project/archlinux-custom-iso/
-

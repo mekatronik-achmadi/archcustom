@@ -1,47 +1,83 @@
-[Toplevel bottom]
-orientation=bottom
+[Toplevel top]
 expand=true
+orientation=top
+size=24
+
+[Toplevel bottom]
+expand=true
+orientation=bottom
 size=24
 
 
 
-[Object compact-menu]
-object-type=menu
-toplevel-id=bottom
+[Object briskmenu]
+applet-iid=BriskMenuFactory::BriskMenu
+locked=true
+toplevel-id=top
 position=0
-locked=true
+object-type=applet
 panel-right-stick=false
 
-[Object windowlistapplet]
-applet-iid=WnckletFactory::WindowListApplet
+[Object file-browser]
+launcher-location=/usr/share/applications/caja-browser.desktop
 locked=true
-toplevel-id=bottom
+toplevel-id=top
 position=10
-object-type=applet
+object-type=launcher
 panel-right-stick=false
 
-
-
-[Object notificationarea]
-applet-iid=NotificationAreaAppletFactory::NotificationArea
+[Object terminal]
+launcher-location=/usr/share/applications/mate-terminal.desktop
 locked=true
-toplevel-id=bottom
+toplevel-id=top
 position=20
+object-type=launcher
+panel-right-stick=false
+
+[Object notification-area]
 object-type=applet
+applet-iid=NotificationAreaAppletFactory::NotificationArea
+toplevel-id=top
+position=20
 panel-right-stick=true
+locked=true
 
 [Object brightnessapplet]
-applet-iid=BrightnessAppletFactory::BrightnessApplet
-locked=true
-toplevel-id=bottom
-position=10
 object-type=applet
+applet-iid=BrightnessAppletFactory::BrightnessApplet
+toplevel-id=top
+position=10
 panel-right-stick=true
-
-[Object clockapplet]
-applet-iid=ClockAppletFactory::ClockApplet
 locked=true
+
+[Object clock]
+object-type=applet
+applet-iid=ClockAppletFactory::ClockApplet
+toplevel-id=top
+position=0
+panel-right-stick=true
+locked=true
+
+
+
+[Object show-desktop]
+object-type=applet
+applet-iid=WnckletFactory::ShowDesktopApplet
 toplevel-id=bottom
 position=0
+locked=true
+
+[Object window-list]
 object-type=applet
+applet-iid=WnckletFactory::WindowListApplet
+toplevel-id=bottom
+position=10
+locked=true
+
+[Object workspace-switcher]
+object-type=applet
+applet-iid=WnckletFactory::WorkspaceSwitcherApplet
+toplevel-id=bottom
+position=0
 panel-right-stick=true
+locked=true
