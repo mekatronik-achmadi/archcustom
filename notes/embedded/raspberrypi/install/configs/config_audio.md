@@ -5,6 +5,9 @@
 ### Enable Audio
 
 ```sh
+# enable audio features
+echo "dtparam=audio=on" | sudo tee -a /boot/config.txt
+
 # if using audio jack 3.5mm
 echo "audio_pwm_mode=2" | sudo tee -a /boot/config.txt
 echo "hdmi_drive=1" | sudo tee -a /boot/config.txt
@@ -14,6 +17,15 @@ echo "hdmi_drive=1" | sudo tee -a /boot/config.txt
 
 # enable audio i2s feature
 echo "dtparam=i2s=on" | sudo tee -a /boot/config.txt
+```
+
+```sh
+echo 'check audio-card for headphone output'
+pacmd list-sinks | grep -e 'name:' -e 'index:'
+
+echo 'set output to headphone on Rpi-3 audio card'
+pactl set-default-sink alsa_output.platform-bcm2835_audio.stereo-fallback.2
+pactl set-sink-volume @DEFAULT_SINK@ 100%
 ```
 
 ```sh
