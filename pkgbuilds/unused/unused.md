@@ -83,7 +83,7 @@ audacity r python-rpy2
 
 ### install campus tools
 
-- https://github.com/mekatronik-achmadi/archmate/tree/main/pkgbuilds/unused/matlab-bin-basic/
+- https://github.com/mekatronik-achmadi/archmate/tree/main/pkgbuilds/unused/campus/matlab-bin-basic/
 - https://github.com/mekatronik-achmadi/archmate/tree/main/pkgbuilds/unused/campus/py-instrumental/
 - https://github.com/mekatronik-achmadi/archmate/tree/main/pkgbuilds/unused/campus/py-pyotdr/
 - https://github.com/mekatronik-achmadi/archmate/tree/main/pkgbuilds/unused/campus/py-pm100/
