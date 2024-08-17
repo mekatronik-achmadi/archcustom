@@ -173,7 +173,7 @@ ffmpeg gst-libav
 gst-plugins-good
 gst-plugins-base
 gst-plugins-ugly
-vlc guvcview
+vlc sox guvcview
 
 ### install libva driver
 
