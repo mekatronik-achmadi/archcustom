@@ -1,0 +1,7 @@
+build/
+PyEnv/
+dist/
+*.egg-info/
+*.so
+.cache/
+compile_commands.json
