@@ -16,6 +16,10 @@ kicad-library-3d ngspice
 
 ## AUR
 
+### install gerber tools
+
+- https://aur.archlinux.org/packages/gerbv-git/
+
 ### install kicad libraries
 
 - https://aur.archlinux.org/packages/kicad-library-espressif-git/
