@@ -3,7 +3,7 @@ pkgver=0.1
 pkgrel=1
 pkgdesc="some desktop settings for ArchLinux MATE"
 arch=('any')
-url="https://github.com/mekatronik-achmadi/archmate/"
+url=""
 license=('GPL')
 depends=(
 	'bash' 'vim' 'vimb'

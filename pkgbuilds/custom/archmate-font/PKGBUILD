@@ -3,7 +3,7 @@ pkgver=0.1
 pkgrel=1
 pkgdesc="default fonts settings for Arch Linux MATE"
 arch=('any')
-url="https://github.com/mekatronik-achmadi/archmate/"
+url=""
 license=('GPL')
 depends=(
     'xorg-mkfontdir' 'dconf-editor' 'gdk-pixbuf2' 'fontconfig' 'freetype2'

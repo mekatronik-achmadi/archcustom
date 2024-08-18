@@ -6,7 +6,7 @@ _iconver=3.0.0+20+gaaba3bb
 _commit=aaba3bb83add369a480f393a8d0907f6ea72b285
 pkgdesc="GTK/Icon index themes for Arch Linux MATE"
 arch=('any')
-url="https://github.com/mekatronik-achmadi/archmate/"
+url=""
 license=('custom')
 depends=(
     'mate-themes' 'gnome-themes-extra'
