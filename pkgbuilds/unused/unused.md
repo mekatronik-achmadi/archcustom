@@ -59,6 +59,15 @@ audacity r python-rpy2
 - https://aur.archlinux.org/packages/mendeleydesktop-bundled/
 - https://aur.archlinux.org/packages/zotero-bin/
 
+### install fractal tools
+
+```sh
+sed -i "s#'mesa-demos##g" PKGBUILD
+```
+
+- https://aur.archlinux.org/packages/mandelbrot-gtk-git/
+- https://aur.archlinux.org/packages/fractalnow/
+
 --------------------------------------------------------------------------------
 
 ## External
