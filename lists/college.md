@@ -45,11 +45,17 @@ python-opencv vtk hdf5-openmpi
 - https://aur.archlinux.org/packages/ttyplot-git/
 - https://aur.archlinux.org/packages/ncurses5-compat-libs/
 
-### install wps office
+### install office suite
+
+#### wps
 
 - https://aur.archlinux.org/packages/libtiff5/
 - https://aur.archlinux.org/packages/wps-office/
 - https://aur.archlinux.org/packages/ttf-wps-fonts/
+
+#### ms-365
+
+- https://aur.archlinux.org/packages/ms-365-electron-bin/
 
 --------------------------------------------------------------------------------
 
