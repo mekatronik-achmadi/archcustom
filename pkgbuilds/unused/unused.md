@@ -40,19 +40,12 @@ audacity r python-rpy2
 ### install cad tools
 
 - https://aur.archlinux.org/packages/cura-bin/
-- https://aur.archlinux.org/packages/gerbv-git/
 - https://aur.archlinux.org/packages/easyeda-pro-bin/
 
 ### install remote desktop
 
 - https://aur.archlinux.org/packages/anydesk-bin/
 - https://aur.archlinux.org/packages/teamviewer/
-
-### install microsoft tools
-
-- https://aur.archlinux.org/packages/ms-365-electron-bin/
-- https://aur.archlinux.org/packages/visual-studio-code-bin/
-- https://aur.archlinux.org/packages/microsoft-edge-stable-bin/
 
 ### install academic tools
 
