@@ -40,6 +40,7 @@ audacity r python-rpy2
 ### install cad tools
 
 - https://aur.archlinux.org/packages/cura-bin/
+- https://aur.archlinux.org/packages/gerbv-git/
 - https://aur.archlinux.org/packages/easyeda-pro-bin/
 
 ### install remote desktop
