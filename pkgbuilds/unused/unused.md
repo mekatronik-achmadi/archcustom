@@ -40,12 +40,19 @@ audacity r python-rpy2
 ### install cad tools
 
 - https://aur.archlinux.org/packages/cura-bin/
+- https://aur.archlinux.org/packages/gerbv-git/
 - https://aur.archlinux.org/packages/easyeda-pro-bin/
 
 ### install remote desktop
 
 - https://aur.archlinux.org/packages/anydesk-bin/
 - https://aur.archlinux.org/packages/teamviewer/
+
+### install microsoft tools
+
+- https://aur.archlinux.org/packages/ms-365-electron-bin/
+- https://aur.archlinux.org/packages/visual-studio-code-bin/
+- https://aur.archlinux.org/packages/microsoft-edge-stable-bin/
 
 ### install academic tools
 
@@ -78,16 +85,12 @@ sed -i "s#'mesa-demos##g" PKGBUILD
 
 ### install internet tool
 
+- https://github.com/mekatronik-achmadi/archmate/tree/main/pkgbuilds/unused/internet/firefox/
 - https://github.com/mekatronik-achmadi/archmate/tree/main/pkgbuilds/unused/internet/youtube/
 - https://github.com/mekatronik-achmadi/archmate/tree/main/pkgbuilds/unused/internet/discord/
 - https://github.com/mekatronik-achmadi/archmate/tree/main/pkgbuilds/unused/internet/telegram/
 - https://github.com/mekatronik-achmadi/archmate/tree/main/pkgbuilds/unused/internet/packettracer/
 - https://github.com/mekatronik-achmadi/archmate/tree/main/pkgbuilds/unused/internet/youtubemusic/
-
-### install web browser
-
-- https://github.com/mekatronik-achmadi/archmate/tree/main/pkgbuilds/unused/webbrowser/msedge/
-- https://github.com/mekatronik-achmadi/archmate/tree/main/pkgbuilds/unused/webbrowser/firefox/
 
 ### install campus tools
 

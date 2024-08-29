@@ -67,7 +67,6 @@ sed -i 's#-p1#-p0#g' PKGBUILD
 
 - https://aur.archlinux.org/packages/wxhexeditor/
 - https://aur.archlinux.org/packages/wxformbuilder/
-- https://aur.archlinux.org/packages/visual-studio-code-bin/
 
 ### install additional system python
 

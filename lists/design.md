@@ -18,11 +18,7 @@ kicad-library-3d ngspice
 
 ### install cad tools
 
-- - https://aur.archlinux.org/packages/easyeda-bin/
-
-### install gerber tools
-
-- https://aur.archlinux.org/packages/gerbv-git/
+- https://aur.archlinux.org/packages/easyeda-bin/
 
 ### install kicad libraries
 
