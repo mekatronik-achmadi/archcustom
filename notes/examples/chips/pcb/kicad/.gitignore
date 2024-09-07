@@ -2,6 +2,6 @@
 *.ini
 *-backups/
 exports/
-plots
+plots/
 *cache
 *~
