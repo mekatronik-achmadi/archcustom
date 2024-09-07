@@ -5,3 +5,5 @@ exports/
 plots/
 *cache
 *~
+*.dxf~
+board2pdf.config.ini
