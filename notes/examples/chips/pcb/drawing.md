@@ -60,10 +60,10 @@ Choose **No** for fitting resize and rename the result to **wiring.pdf**.
 
 ### Merge PDFs
 
-Merge all PDFs into single file named **summary.pdf**:
+Merge all PDFs into single file named **drawing.pdf**:
 
 ```sh
-pdfjam --outfile summary.pdf \
+pdfjam --outfile drawing.pdf \
 --paper a5paper --landscape \
 wiring.pdf sch.pdf brd.pdf
 ```
