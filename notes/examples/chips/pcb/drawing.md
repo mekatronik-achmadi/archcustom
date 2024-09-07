@@ -65,7 +65,7 @@ Merge all PDFs into single file named **summary.pdf**:
 ```sh
 pdfjam --outfile summary.pdf \
 --paper a5paper --landscape \
-sch.pdf brd.pdf wiring.pdf 
+wiring.pdf sch.pdf brd.pdf
 ```
 
 ## Fabrication
