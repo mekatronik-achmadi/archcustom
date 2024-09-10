@@ -4,8 +4,8 @@
 
 ### install graphic tools
 
-inkscape gimp djview
-imagemagick xsane-gimp
+inkscape pstoedit djview
+imagemagick gimp xsane-gimp
 
 --------------------------------------------------------------------------------
 
