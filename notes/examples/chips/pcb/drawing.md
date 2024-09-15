@@ -44,7 +44,20 @@ PCB Editor: File -> Export -> SVG
 
 ![](images/brd_svg.png)
 
-Use the the result SVG to draw wiring using other CAD software, such as LibreCAD:
+Convert the **brd.svg** into DXF using Inkscape and PStoEdit:
+
+```sh
+inkscape -o brd.eps brd.svg
+pstoedit -dt -f 'dxf:-polyaslines -mm' brd.eps brd.dxf
+```
+
+Then, use the result **brd.dxf** to draw wiring diagram using 2D CAD.
+
+For example, import the DXF as block in LibreCAD:
+
+```
+LibreCAD: File -> Import -> Block
+``` 
 
 ![](images/librecad.png)
 
@@ -96,9 +109,17 @@ PCB Editor: File -> Fabrication Outputs -> Gerbers
 
 ![](images/grbr.png)
 
-You can view Gerber result in KiCAD's Gerber Viewer or [Tracespace](https://github.com/tracespace/tracespace).
+You can view Gerber result in KiCAD's Gerber Viewer
 
-![](images/grbrview.png)
+![](images/kigrbrview.png)
+
+or using lighweight [GerbView](https://github.com/gerbv/gerbv)
+
+![](images/gvgrbrview.png)
+
+or using web-based [Tracespace](https://github.com/tracespace/tracespace).
+
+![](images/tsgrbrview.png)
 
 #### Board Size
 
