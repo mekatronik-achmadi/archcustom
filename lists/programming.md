@@ -67,12 +67,16 @@ sed -i 's#-p1#-p0#g' PKGBUILD
 
 - https://aur.archlinux.org/packages/wxhexeditor/
 - https://aur.archlinux.org/packages/wxformbuilder/
-- https://aur.archlinux.org/packages/visual-studio-code-bin/
 
 ### install additional system python
 
 - https://aur.archlinux.org/packages/python-wifiwrapper/
 - https://aur.archlinux.org/packages/python-pyalsaaudio/
+
+### install microsoft tools
+
+- https://aur.archlinux.org/packages/visual-studio-code-bin/
+- https://aur.archlinux.org/packages/microsoft-edge-stable-bin/
 
 --------------------------------------------------------------------------------
 
