@@ -36,6 +36,7 @@ Paths:
 
 **NOTE:**
 - For Android, its recommended to use Internal Storage and do Copy Asset
+- For copy card pics on Android, try to copy from Computer to MicroSD, then MicroSD to EDOPro pics 
 - If repositories clone failed, delete files in repositories folder to re-clone
 
 All Card Pics:
