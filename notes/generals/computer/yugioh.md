@@ -30,10 +30,12 @@
 
 Paths:
 - ArchLinux: /opt/edopro/
-- Android: Android/data/io.github.edo9300.edopro/files/
+- Android:
+	+ emulated/0/EDOPro
+	+ emulated/0/data/io.github.edo9300.edopro/files/
 
 **NOTE:**
-- For Android, set game path in Internal storage without copying assets
+- For Android, its recommended to use Internal Storage and do Copy Asset
 - If repositories clone failed, delete files in repositories folder to re-clone
 
 All Card Pics:
