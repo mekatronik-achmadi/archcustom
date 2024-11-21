@@ -30,13 +30,13 @@
 
 Paths:
 - ArchLinux: /opt/edopro/
-- Android:
+- Android (default):
 	+ emulated/0/EDOPro
-	+ emulated/0/data/io.github.edo9300.edopro/files/
+	+ emulated/0/Android/data/io.github.edo9300.edopro/files/
 
 **NOTE:**
-- For Android,
-	+ its recommended to use Internal Storage and do Copy Asset
+- For Android:
+	+ Keep default path in Internal Storage and use Copy Asset
 	+ For copy card pics on Android
 		+ try to copy from Computer to MicroSD, then MicroSD to EDOPro pics
 		+ add .NOMEDIA to speed up copy process
