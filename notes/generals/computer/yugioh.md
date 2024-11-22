@@ -30,16 +30,18 @@
 
 Paths:
 - ArchLinux: /opt/edopro/
-- Android (default):
-	+ emulated/0/EDOPro
-	+ emulated/0/Android/data/io.github.edo9300.edopro/files/
+- Android:
+	+ default:
+		+ emulated/0/EDOPro
+		+ emulated/0/Android/data/io.github.edo9300.edopro/files/
+	+ change:
+		+ sdcard/Android/data/io.github.edo9300.edopro/files/EDOPro
 
 **NOTE:**
 - For Android:
-	+ Keep default path in Internal Storage and use Copy Asset
-	+ For copy card pics on Android
-		+ try to copy from Computer to MicroSD, then MicroSD to EDOPro pics
-		+ add .NOMEDIA to speed up copy process
+	+ Change working directory to a directory in SDCard and use Copy Internal Asset
+	+ copy standard card pics to actual working directory in SDCard using computer
+	+ optionally also can move game installation to SDCard
 - If repositories clone failed, delete files in repositories folder to re-clone
 
 All Card Pics:
@@ -134,8 +136,9 @@ Install:
 
 DM:
 - BlueEyes     : Main, Fusion, Synchro, Xyz
+- RedEyes      : Main, Fusion, Xyz
+- Magicians    : Main, Fusion, Xyz
 - Harpies      : Synchro, Xyz, Link
-- TheMagicians : Main, Fusion, Xyz
 
 GX:
 - CyberDragon  : Fusion, Xyz, Link
@@ -146,7 +149,8 @@ GX:
 VRAINS:
 - CodeFirewall : Link
 - Salamangreat : Link
-- Marincess    : Link
+- Rokket       : Fusion, Synchro, Xyz, Link
+- Ignister     : Fusion, Synchro, Xyz, Link
 
 ### Non-Anime
 
@@ -154,16 +158,12 @@ Ritual:
 - Vendread     : Ritual, Link
 - Voiceless    : Ritual
 
-Extra:
-- Danger       : Main, Xyz, Link
-
 Non-Extra:
-- Kaiju        : Main
-- Labrynth     : Main
+- Mikanko      : Main, Female
+- Labrynth     : Main, Female
 
 Other:
 - Qli          : Pendulum, Link
-- Paleozoic    : Trap, Xyz, Link
 - Female       : Catalog
 
 ## Meta
