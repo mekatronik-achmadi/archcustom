@@ -30,18 +30,9 @@
 
 Paths:
 - ArchLinux: /opt/edopro/
-- Android:
-	+ default:
-		+ emulated/0/EDOPro
-		+ emulated/0/Android/data/io.github.edo9300.edopro/files/
-	+ change:
-		+ sdcard/Android/data/io.github.edo9300.edopro/files/EDOPro
+- Android: Not recommended due very slow performances
 
 **NOTE:**
-- For Android:
-	+ Change working directory to a directory in SDCard and use Copy Internal Asset
-	+ copy standard card pics to actual working directory in SDCard using computer
-	+ optionally also can move game installation to SDCard
 - If repositories clone failed, delete files in repositories folder to re-clone
 
 All Card Pics:
